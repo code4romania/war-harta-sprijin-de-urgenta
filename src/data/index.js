@@ -1232,7 +1232,8 @@ export const helpCenters = [
     pk: 408,
     county: 'ARGES',
     locality: 'PITESTI',
-    address: 'Asociația pentru Asistență Socială Universul Copiilor Speciali, Mun. Pitești, str. Gheorghe Șincai, nr. 30',
+    address:
+      'Asociația pentru Asistență Socială Universul Copiilor Speciali, Mun. Pitești, str. Gheorghe Șincai, nr. 30',
     lat: 44.85918,
     lng: 24.88312,
     email: 'asociatia.ucs@gmail.com',
@@ -1252,7 +1253,8 @@ export const helpCenters = [
     pk: 410,
     county: 'ARGES',
     locality: 'CURTEA DE ARGES',
-    address: 'Arhiepiscopia Argeșului și Muscelului, Mun. Curtea de Argeș, b-dul Basarabilor, nr. 23',
+    address:
+      'Arhiepiscopia Argeșului și Muscelului, Mun. Curtea de Argeș, b-dul Basarabilor, nr. 23',
     lat: 45.14814,
     lng: 24.67573,
     email: 'social.arges@yahoo.com',
