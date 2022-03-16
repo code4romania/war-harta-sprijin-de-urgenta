@@ -67,7 +67,7 @@ const FooterFragment = () => {
               </li>
               <li>
                 <Link
-                  to={{ pathname: 'https://sprijindeurgenta.ro/confidentiality-policy' }}
+                  to={{ pathname: 'https://sprijindeurgenta.ro/terms-and-conditions' }}
                   target="_blank"
                 >
                   <Trans>Terms and Conditions</Trans>
