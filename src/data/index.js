@@ -7,6 +7,7 @@ export const helpCenters = [
     lat: 44.4283747,
     lng: 24.3686168,
     email: 'office@primariaslatina.ro',
+    phoneNumber: '0722219293',
   },
   {
     pk: 2,
@@ -16,6 +17,7 @@ export const helpCenters = [
     lat: 44.112425,
     lng: 24.3453432,
     email: 'office@primariacaracal.ro',
+    phoneNumber: '0747115042',
   },
   {
     pk: 3,
@@ -25,6 +27,7 @@ export const helpCenters = [
     lat: 44.1158898,
     lng: 24.3515587,
     email: 'primariacorabia@yahoo.com',
+    phoneNumber: '0770680230',
   },
   {
     pk: 4,
@@ -34,6 +37,7 @@ export const helpCenters = [
     lat: 45.697134944230804,
     lng: 27.18613329562449,
     email: 'vrancea@crucearosie.ro',
+    phoneNumber: '0741993954',
   },
   {
     pk: 7,
@@ -52,6 +56,7 @@ export const helpCenters = [
     lat: 44.4333757,
     lng: 26.148619,
     email: '',
+    phoneNumber: '0219524'
   },
   {
     pk: 9,
@@ -314,6 +319,7 @@ export const helpCenters = [
     lat: 44.3118747,
     lng: 23.8035039,
     email: 'dolj@crucearosie.ro',
+    phoneNumber: '0744768225',
   },
 
   {
@@ -333,6 +339,7 @@ export const helpCenters = [
     lat: 46.2196393,
     lng: 27.6693657,
     email: 'scoalavasileparvan@gmail.ro',
+    phoneNumber: 'O235410470',
   },
   {
     pk: 49,
@@ -342,6 +349,7 @@ export const helpCenters = [
     lat: 46.6539289,
     lng: 27.7364444,
     email: 'sc10ro@yahoo.com',
+    phoneNumber: '0335410993',
   },
   {
     pk: 50,
@@ -351,6 +359,7 @@ export const helpCenters = [
     lat: 46.6408232,
     lng: 27.7260573,
     email: 'isjvaslui@isj.edu.ro',
+    phoneNumber: '0235311928',
   },
   {
     pk: 53,
@@ -369,6 +378,7 @@ export const helpCenters = [
     lat: 46.3611951,
     lng: 25.8014315,
     email: 'patrimoniu@judetulharghita.ro',
+    phoneNumber: '0744600569',
   },
   {
     pk: 59,
@@ -378,6 +388,7 @@ export const helpCenters = [
     lat: 46.3574482,
     lng: 25.8031616,
     email: 'contact@jandarmeriaharghita.ro',
+    phoneNumber: '0749089536',
   },
   {
     pk: 61,
@@ -396,6 +407,7 @@ export const helpCenters = [
     lat: 46.7664303,
     lng: 23.5756524,
     email: 'cluj@crucearosie.ro',
+    phoneNumber: '0264592447',
   },
 
   {
@@ -415,6 +427,7 @@ export const helpCenters = [
     lat: 45.8382,
     lng: 24.07361,
     email: 'Sibiu@crucearosie.ro',
+    phoneNumber: '0741118975',
   },
   {
     pk: 97,
@@ -424,6 +437,7 @@ export const helpCenters = [
     lat: 45.7276651,
     lng: 24.3742097,
     email: 'lidia.badila@primaria-avrig.ro',
+    phoneNumber: '0748871850',
   },
   {
     pk: 101,
@@ -433,6 +447,7 @@ export const helpCenters = [
     lat: 45.10797,
     lng: 24.37123,
     email: 'valcea@crucearosie.ro',
+    phoneNumber: '0721774197',
   },
   {
     pk: 106,
@@ -442,6 +457,7 @@ export const helpCenters = [
     lat: 44.2838019,
     lng: 22.9344789,
     email: 'clpunghina@yahoo.com',
+    phoneNumber: '0742833552',
   },
   {
     pk: 107,
@@ -451,6 +467,7 @@ export const helpCenters = [
     lat: 44.2050323,
     lng: 22.925391,
     email: 'primariacujmir@pejmh.ro',
+    phoneNumber: '0748498508',
   },
   {
     pk: 108,
@@ -460,6 +477,7 @@ export const helpCenters = [
     lat: 44.7971509,
     lng: 22.677998,
     email: 'clbalvanesti@gmail.com',
+    phoneNumber: '0761789057',
   },
   {
     pk: 109,
@@ -469,6 +487,7 @@ export const helpCenters = [
     lat: 44.2003621,
     lng: 22.9688053,
     email: 'primariadirvari@pejmh.ro',
+    phoneNumber: '0727588276',
   },
   {
     pk: 110,
@@ -478,6 +497,7 @@ export const helpCenters = [
     lat: 44.510417,
     lng: 23.1530721,
     email: 'primar@cldumbrava.ro',
+    phoneNumber: '0252342661',
   },
   {
     pk: 116,
@@ -487,6 +507,7 @@ export const helpCenters = [
     lat: 46.5619771,
     lng: 26.9101094,
     email: '-',
+    phoneNumber: '0234581853',
   },
   {
     pk: 117,
@@ -505,6 +526,7 @@ export const helpCenters = [
     lat: 46.474475,
     lng: 26.4859138,
     email: 'office@moinesti.ro',
+    phoneNumber: '0734363680',
   },
   {
     pk: 123,
@@ -514,6 +536,7 @@ export const helpCenters = [
     lat: 46.670317,
     lng: 26.5979403,
     email: 'primariabuhusi@yahoo.com',
+    phoneNumber: '0741671325',
   },
   {
     pk: 125,
@@ -523,6 +546,7 @@ export const helpCenters = [
     lat: 47.6495605,
     lng: 23.5730867,
     email: 'ioana.teodorescu@prefecturamaramures.ro  ioana.teodorescu25@yahoo.ro',
+    phoneNumber: '0755793869'
   },
   {
     pk: 133,
@@ -532,6 +556,7 @@ export const helpCenters = [
     lat: 44.935230434172816,
     lng: 26.027888572454046,
     email: 'ioana.teodorescu@prefecturamaramures.ro',
+    phoneNumber: '0755793869'
   },
   {
     pk: 134,
@@ -541,6 +566,7 @@ export const helpCenters = [
     lat: 44.20637034903384,
     lng: 27.310500296093657,
     email: 'calarasi@crucearosie.ro',
+    phoneNumber: '0727688423',
   },
   {
     pk: 143,
@@ -550,6 +576,7 @@ export const helpCenters = [
     lat: 47.3476346,
     lng: 22.3775185,
     email: 'bihor@crucearosie.ro',
+    phoneNumber: '0761060068',
   },
   {
     pk: 144,
@@ -559,6 +586,7 @@ export const helpCenters = [
     lat: 47.062110502530714,
     lng: 21.93536136670024,
     email: 'bihor@crucearosie.ro',
+    phoneNumber: '0761060068',
   },
   {
     pk: 146,
@@ -568,6 +596,7 @@ export const helpCenters = [
     lat: 47.3476346,
     lng: 22.3775185,
     email: 'primaria.abram@cjbihor.ro',
+    phoneNumber: '0771231144',
   },
   {
     pk: 147,
@@ -577,6 +606,7 @@ export const helpCenters = [
     lat: 47.3359902,
     lng: 22.2866689,
     email: 'primaria.abramut@cjbihor.ro',
+    phoneNumber: '0744559945',
   },
   {
     pk: 148,
@@ -586,6 +616,7 @@ export const helpCenters = [
     lat: 47.1470312,
     lng: 22.4904602,
     email: 'primaria.alesd@cjbihor.ro',
+    phoneNumber: '0742598349',
   },
   {
     pk: 149,
@@ -595,6 +626,7 @@ export const helpCenters = [
     lat: 47.0171114,
     lng: 22.3888368,
     email: 'primaria.astileu@cjbihor.ro',
+    phoneNumber: '0751281121',
   },
   {
     pk: 150,
@@ -604,6 +636,7 @@ export const helpCenters = [
     lat: 47.0337885,
     lng: 22.488394,
     email: 'primaria.auseu@cjbihor.ro',
+    phoneNumber: '0259447036',
   },
   {
     pk: 151,
@@ -613,6 +646,7 @@ export const helpCenters = [
     lat: 46.869193,
     lng: 21.9549836,
     email: 'primaria.avramiancu@cjbihor.ro',
+    phoneNumber: '0771022512',
   },
   {
     pk: 152,
@@ -622,6 +656,7 @@ export const helpCenters = [
     lat: 47.4049738,
     lng: 22.4245793,
     email: 'primaria.balc@cjbihor.ro',
+    phoneNumber: '0755755986',
   },
   {
     pk: 153,
@@ -631,6 +666,7 @@ export const helpCenters = [
     lat: 46.7043436,
     lng: 21.9452053,
     email: 'primariabatar@yahoo.com',
+    phoneNumber: '0723559229',
   },
   {
     pk: 154,
@@ -640,6 +676,7 @@ export const helpCenters = [
     lat: 47.0353066,
     lng: 22.3670895,
     email: 'primaria.beius@cjbihor.ro',
+    phoneNumber: '0733999318',
   },
   {
     pk: 155,
@@ -649,6 +686,7 @@ export const helpCenters = [
     lat: 47.1554774,
     lng: 21.8996357,
     email: 'secretariat@comunabiharia.ro',
+    phoneNumber: '0744362359',
   },
   {
     pk: 156,
@@ -658,6 +696,7 @@ export const helpCenters = [
     lat: 47.3895803,
     lng: 22.4817618,
     email: 'primaria.boianumare@cjbihor.ro',
+    phoneNumber: '0768100404',
   },
   {
     pk: 157,
@@ -667,6 +706,7 @@ export const helpCenters = [
     lat: 47.018247,
     lng: 22.5971051,
     email: 'primaria_borod@yahoo.com',
+    phoneNumber: '0745381102',
   },
   {
     pk: 158,
@@ -676,6 +716,7 @@ export const helpCenters = [
     lat: 47.1154476,
     lng: 21.8086567,
     email: 'primariabors@gmail.com',
+    phoneNumber: '0741705785',
   },
   {
     pk: 159,
@@ -685,6 +726,7 @@ export const helpCenters = [
     lat: 47.0575533,
     lng: 21.9327637,
     email: 'primariabratca@yahoo.com',
+    phoneNumber: '0744531187',
   },
   {
     pk: 160,
@@ -694,6 +736,7 @@ export const helpCenters = [
     lat: 47.1577233,
     lng: 22.2361486,
     email: 'primaria.brusturi@cjbihor.ro',
+    phoneNumber: '0785255042',
   },
   {
     pk: 161,
@@ -703,6 +746,7 @@ export const helpCenters = [
     lat: 46.7197213,
     lng: 22.4924994,
     email: 'primaria.budureasa@cjbihor.ro',
+    phoneNumber: '0762692755',
   },
   {
     pk: 162,
@@ -712,6 +756,7 @@ export const helpCenters = [
     lat: 47.4887214,
     lng: 22.2388336,
     email: 'primaria.buduslau@cjbihor.ro',
+    phoneNumber: '0771293475',
   },
   {
     pk: 163,
@@ -721,6 +766,7 @@ export const helpCenters = [
     lat: 47.0158319,
     lng: 22.7723472,
     email: 'primaria.bulz@cjbihor.ro',
+    phoneNumber: '0733927515',
   },
   {
     pk: 164,
@@ -730,6 +776,7 @@ export const helpCenters = [
     lat: 46.612432,
     lng: 22.4625238,
     email: 'primaria.buntesti@cjbihor.ro',
+    phoneNumber: '0729996662',
   },
   {
     pk: 165,
@@ -739,6 +786,7 @@ export const helpCenters = [
     lat: 46.9138004,
     lng: 22.5007778,
     email: 'contact@comunacabesti.ro',
+    phoneNumber: '0728825231',
   },
   {
     pk: 166,
@@ -748,6 +796,7 @@ export const helpCenters = [
     lat: 46.7353924,
     lng: 22.099805,
     email: 'primaria.capilna@cjbihor.ro',
+    phoneNumber: '0745508730',
   },
   {
     pk: 167,
@@ -757,6 +806,7 @@ export const helpCenters = [
     lat: 46.4547352,
     lng: 22.4952152,
     email: 'primaria.carpinet@cjbihor.ro',
+    phoneNumber: '0771429096',
   },
   {
     pk: 168,
@@ -766,6 +816,7 @@ export const helpCenters = [
     lat: 46.7109017,
     lng: 22.7329232,
     email: 'primariacimpani@yahoo.com',
+    phoneNumber: '0742248494',
   },
   {
     pk: 169,
@@ -775,6 +826,7 @@ export const helpCenters = [
     lat: 46.9489477,
     lng: 21.772981,
     email: 'primaria.cefa@cjbihor.ro',
+    phoneNumber: '0731221269',
   },
   {
     pk: 170,
@@ -784,6 +836,7 @@ export const helpCenters = [
     lat: 46.8808236,
     lng: 22.3090074,
     email: 'primaria.ceica@cjbihor.ro',
+    phoneNumber: '0771145190',
   },
   {
     pk: 171,
@@ -793,6 +846,7 @@ export const helpCenters = [
     lat: 47.2001419,
     lng: 22.1520159,
     email: 'primaria.cetariu@cjbihor.ro',
+    phoneNumber: '0745432405',
   },
   {
     pk: 172,
@@ -802,6 +856,7 @@ export const helpCenters = [
     lat: 47.3759245,
     lng: 22.1330112,
     email: 'registratura@cherechiu.ro',
+    phoneNumber: '0774628165',
   },
   {
     pk: 219,
@@ -811,6 +866,7 @@ export const helpCenters = [
     lat: 46.6950857,
     lng: 21.5806887,
     email: 'primaria_sambata@yahoo.com',
+    phoneNumber: '0732135163',
   },
   {
     pk: 220,
@@ -820,6 +876,7 @@ export const helpCenters = [
     lat: 46.9613036,
     lng: 21.7152113,
     email: 'primaria.sanicolauroman@cjbihor.ro',
+    phoneNumber: '0740158026',
   },
   {
     pk: 221,
@@ -829,6 +886,7 @@ export const helpCenters = [
     lat: 47.050265,
     lng: 21.9056809,
     email: 'registratura@saniob.ro',
+    phoneNumber: '0745377244',
   },
   {
     pk: 222,
@@ -838,6 +896,7 @@ export const helpCenters = [
     lat: 46.9932679,
     lng: 21.9245199,
     email: 'primaria.sanmartin@cjbihor.ro',
+    phoneNumber: '0749212588',
   },
   {
     pk: 223,
@@ -847,6 +906,7 @@ export const helpCenters = [
     lat: 47.0666528,
     lng: 21.8520025,
     email: 'contact@primariasantandrei.ro',
+    phoneNumber: '0754930885',
   },
   {
     pk: 224,
@@ -856,6 +916,7 @@ export const helpCenters = [
     lat: 47.1864273,
     lng: 22.1103909,
     email: 'registratura@comunasarbi.ro',
+    phoneNumber: '0748764621',
   },
   {
     pk: 225,
@@ -865,6 +926,7 @@ export const helpCenters = [
     lat: 47.0420428,
     lng: 22.1393136,
     email: 'primaria.sacadat@cjbihor.ro',
+    phoneNumber: '0742952297',
   },
   {
     pk: 226,
@@ -874,6 +936,7 @@ export const helpCenters = [
     lat: 47.0696826,
     lng: 21.9446644,
     email: 'primariaspinus@yahoo.com',
+    phoneNumber: '0740760029',
   },
   {
     pk: 227,
@@ -883,6 +946,7 @@ export const helpCenters = [
     lat: 47.2598904,
     lng: 22.5243102,
     email: 'primaria.suplacudebarcau@cjbihor.ro',
+    phoneNumber: '0722267322',
   },
   // {
   //   pk: 228,
@@ -901,6 +965,7 @@ export const helpCenters = [
     lat: 47.1423953,
     lng: 22.515077,
     email: 'primaria.sinteu@cjbihor.ro',
+    phoneNumber: '0727860333',
   },
   {
     pk: 231,
@@ -910,6 +975,7 @@ export const helpCenters = [
     lat: 46.3222497,
     lng: 22.069783,
     email: 'primaria.stei@cjbihor.ro',
+    phoneNumber: '0745434565',
   },
   {
     pk: 232,
@@ -919,6 +985,7 @@ export const helpCenters = [
     lat: 46.9157492,
     lng: 22.330711,
     email: 'primaria.suncuius@cjbihor.ro',
+    phoneNumber: '0762447216',
   },
   {
     pk: 233,
@@ -928,6 +995,7 @@ export const helpCenters = [
     lat: 47.457374,
     lng: 22.1720558,
     email: 'primaria.tarcea@cjbihor.ro',
+    phoneNumber: '0741509191',
   },
   {
     pk: 234,
@@ -937,6 +1005,7 @@ export const helpCenters = [
     lat: 47.2188527,
     lng: 21.8726487,
     email: 'primaria@tamaseu.ro',
+    phoneNumber: '0735878380',
   },
   {
     pk: 236,
@@ -946,6 +1015,7 @@ export const helpCenters = [
     lat: 47.2722625,
     lng: 22.3369638,
     email: 'primariatauteu@yahoo.com',
+    phoneNumber: '0771331130',
   },
   {
     pk: 237,
@@ -955,6 +1025,7 @@ export const helpCenters = [
     lat: 47.0712667,
     lng: 22.1967532,
     email: 'primaria_tileagd@yahoo.com',
+    phoneNumber: '0760900058',
   },
   {
     pk: 238,
@@ -964,6 +1035,7 @@ export const helpCenters = [
     lat: 46.7747597,
     lng: 21.92843,
     email: 'primaria.tinca@cjbihor.ro',
+    phoneNumber: '0740125377',
   },
   {
     pk: 239,
@@ -973,6 +1045,7 @@ export const helpCenters = [
     lat: 47.0331868,
     lng: 21.6983429,
     email: 'primariatoboliu@yahoo.com',
+    phoneNumber: '0764996013',
   },
   {
     pk: 240,
@@ -982,6 +1055,7 @@ export const helpCenters = [
     lat: 46.7869441,
     lng: 21.7723933,
     email: 'primaria.tulca@cjbihor.ro',
+    phoneNumber: '0758757641',
   },
   {
     pk: 241,
@@ -1000,6 +1074,7 @@ export const helpCenters = [
     lat: 46.685057,
     lng: 22.2185577,
     email: 'primaria.uileacudebeius@cjbihor.ro',
+    phoneNumber: '0735511023',
   },
   {
     pk: 243,
@@ -1009,6 +1084,7 @@ export const helpCenters = [
     lat: 46.9856984,
     lng: 22.5125489,
     email: 'primaria.vaducrisului@cjbihor.ro',
+    phoneNumber: '0745229897',
   },
   {
     pk: 244,
@@ -1018,6 +1094,7 @@ export const helpCenters = [
     lat: 47.5041437,
     lng: 22.1337663,
     email: 'primarie@valealuimihai.ro',
+    phoneNumber: '0740673007',
   },
   {
     pk: 245,
@@ -1027,6 +1104,7 @@ export const helpCenters = [
     lat: 46.0549311,
     lng: 21.3016048,
     email: 'primaria_vascau@yahoo.com',
+    phoneNumber: '0755086524',
   },
   {
     pk: 246,
@@ -1036,6 +1114,7 @@ export const helpCenters = [
     lat: 45.730027,
     lng: 21.1206643,
     email: 'primaria.virciorog@cjbihor.ro',
+    phoneNumber: '0742214802',
   },
   {
     pk: 247,
@@ -1045,6 +1124,7 @@ export const helpCenters = [
     lat: 47.3884317,
     lng: 22.4475263,
     email: 'primaria.viisoara@cjbihor.ro',
+    phoneNumber: '0744320305',
   },
   {
     pk: 249,
@@ -1054,6 +1134,7 @@ export const helpCenters = [
     lat: 46.06781715402371,
     lng: 23.584173155983976,
     email: 'crucearosie.alba@gmail.com',
+    phoneNumber: '0722654324',
   },
   {
     pk: 250,
@@ -1063,6 +1144,7 @@ export const helpCenters = [
     lat: 47.18361663555634,
     lng: 23.0546131001972,
     email: 'salaj@crucearosie@yahoo.com',
+    phoneNumber: '0751072023',
   },
   {
     pk: 252,
@@ -1072,6 +1154,7 @@ export const helpCenters = [
     lat: 45.282547602634786,
     lng: 27.947458413632408,
     email: 'secretariat@dasbraila.ro',
+    phoneNumber: '0770639611',
   },
   {
     pk: 252,
@@ -1081,6 +1164,7 @@ export const helpCenters = [
     lat: 45.282547602634786,
     lng: 27.947458413632408,
     email: 'secretariat@dasbraila.ro',
+    phoneNumber: '0729664832',
   },
   {
     pk: 253,
@@ -1099,6 +1183,7 @@ export const helpCenters = [
     lat: 45.86122193868186,
     lng: 25.78543626947022,
     email: 'office@crucearosie-cv.org',
+    phoneNumber: '0742081202',
   },
   {
     pk: 268,
@@ -1108,6 +1193,7 @@ export const helpCenters = [
     lat: 46.933804758622706,
     lng: 26.368752562110345,
     email: 'bmsuppn@gmail.com',
+    phoneNumber: '0748146751',
   },
   {
     pk: 269,
@@ -1117,6 +1203,7 @@ export const helpCenters = [
     lat: 46.926120276910034,
     lng: 26.929592440666397,
     email: 'primaria@primariaroman.ro',
+    phoneNumber: '0745844219',
   },
   {
     pk: 270,
@@ -1126,6 +1213,7 @@ export const helpCenters = [
     lat: 47.2054141456579,
     lng: 26.369083956018503,
     email: 'tgnt@primariatgnt.ro',
+    phoneNumber: '0752365819',
   },
   {
     pk: 378,
@@ -1135,6 +1223,7 @@ export const helpCenters = [
     lat: 47.2861391,
     lng: 24.4017055,
     email: 'pon@primarianasaud.ro',
+    phoneNumber: '0775313782',
   },
   {
     pk: 389,
@@ -1162,6 +1251,7 @@ export const helpCenters = [
     lat: 47.2120507,
     lng: 24.6790628,
     email: 'primaria.joseniibirgaului@yahoo.ro',
+    phoneNumber: '0748827187',
   },
   {
     pk: 393,
@@ -1189,6 +1279,7 @@ export const helpCenters = [
     lat: 47.4150393,
     lng: 24.8063171,
     email: 'scoala_fpr@yahoo.com',
+    phoneNumber: '0745554466',
   },
   {
     pk: 404,
@@ -1207,6 +1298,7 @@ export const helpCenters = [
     lat: 46.55521302672433,
     lng: 24.56226766081246,
     email: 'director@crucearosie.ro',
+    phoneNumber: '0734449930',
   },
   {
     pk: 406,
