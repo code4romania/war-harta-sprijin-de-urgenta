@@ -3,6 +3,7 @@
 [![GitHub contributors][ico-contributors]][link-contributors]
 [![GitHub last commit][ico-last-commit]][link-last-commit]
 [![License: MPL 2.0][ico-license]][link-license]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b805da04-c2ab-453d-a8a3-1f1a1ea6c80f/deploy-status)](https://app.netlify.com/sites/war-harta-sprijin-de-urgenta/deploys)
 
 The application helps people more easily locate collection centers in Romania where they can donate for the refugees of the Russian invasion of Ukraine.
 
@@ -32,34 +33,11 @@ If you would like to suggest new functionality, open an Issue and mark it as a _
 
 ## Deployment
 
-Guide users through getting your code up and running on their own system. In this section you can talk about:
-1. Make a copy of the `.env` file, change the variables and run the build command
-
-    ```shell
-    cp .env.dev .env
-    # modify the variables in the .env and then build the development container
-    make build-dev
-    ```
-
-2. Software dependencies
-
-    You can run the app through docker, if it is installed on your machine. If you wish to run it manually you will need to have `gettext` installed.
-
-    All these dependencies can be easily installed on a Mac or Ubuntu system by running `make install-docker-ubuntu` or `make install-docker-macos`.
-
 ### Environment variables
 
 The `.env` files contain variables required to start the services and initialize them.
 
-- `ENVIRONMENT` - [`test`|`development`|`production`] sets the type of deployment (default `production`)
-- `RUN_MIGRATION` - [`yes`|`no`] run django migrations when you start the app (default `yes`)
-- `RUN_COMPILEMESSAGES` - [`yes`|`no`] compile i18n messages when you first start the app (default `yes`)
-- `RUN_LOAD_DUMMY_DATA` - [`yes`|`no`] load the data from the `fixtures/` folders (default `no`)
-- `RUN_COLLECT_STATIC` - [`yes`|`no`] collects static data like images/fonts (default `yes` - has no effect if `ENVIRONMENT != production`)
-- `RUN_DEV_SERVER` - [`yes`|`no`] starts the app in development mode with a more comprehensive debugging toolbox (default `no`)
-- `DATABASE_URL` - the URL Django will use to connect to the database (should be changed if you're not running through Docker)
-- `REACT_APP_CAPTCHA_API_KEY` - you can either [use a test key](https://docs.hcaptcha.com/#integration-testing-test-keys) or get a real key by [creating an hCAPTCHA account](https://dashboard.hcaptcha.com/signup) and then [getting your key from your settings page](https://dashboard.hcaptcha.com/settings); then you create a **New Site** and copy the **Site Key**
-- `HERE_MAPS_API_KEY` & `REACT_APP_HERE_MAPS_API_KEY` - can be the same key, find out how to get it from [the HERE Maps developer tutorial](https://developer.here.com/tutorials/getting-here-credentials/)
+- `REACT_APP_HERE_MAPS_API_KEY` - find out how to get it from [the HERE Maps developer tutorial](https://developer.here.com/tutorials/getting-here-credentials/)
 
 ## Feedback
 
