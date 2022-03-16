@@ -56,7 +56,7 @@ export const helpCenters = [
     lat: 44.4333757,
     lng: 26.148619,
     email: '',
-    phoneNumber: '0219524'
+    phoneNumber: '0219524',
   },
   {
     pk: 9,
@@ -546,7 +546,7 @@ export const helpCenters = [
     lat: 47.6495605,
     lng: 23.5730867,
     email: 'ioana.teodorescu@prefecturamaramures.ro  ioana.teodorescu25@yahoo.ro',
-    phoneNumber: '0755793869'
+    phoneNumber: '0755793869',
   },
   {
     pk: 133,
@@ -556,7 +556,7 @@ export const helpCenters = [
     lat: 44.935230434172816,
     lng: 26.027888572454046,
     email: 'ioana.teodorescu@prefecturamaramures.ro',
-    phoneNumber: '0755793869'
+    phoneNumber: '0755793869',
   },
   {
     pk: 134,
@@ -1147,7 +1147,7 @@ export const helpCenters = [
     phoneNumber: '0751072023',
   },
   {
-    pk: 252,
+    pk: 251,
     county: 'BRAILA',
     locality: 'Braila',
     address: 'strada Comuna din Paris, NR. 95',
@@ -1403,7 +1403,7 @@ export const helpCenters = [
     phoneNumber: '0742049518',
   },
   {
-    pk: 415,
+    pk: 416,
     county: 'ARGES',
     locality: 'CAMPULUNG',
     address: 'Arhiepiscopia Argeșului și Muscelului, Mun. Câmpulung, str. Istrate Rizeanu nr. 213',
