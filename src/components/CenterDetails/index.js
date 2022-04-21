@@ -3,7 +3,7 @@ import { Button, Card, Col, Icon, Row, Descriptions, Empty } from 'antd';
 import { Trans } from '@lingui/macro';
 import { CenterDetailsTitle } from '../CenterDetailsTitle';
 
-export const CenterDetails = ({ onClose, isLoading, details, onClick }) => {
+export const CenterDetails = ({ onClose, isLoading, details }) => {
   const detailsItems = useMemo(() => {
     if (!details) {
       return [];
@@ -11,14 +11,21 @@ export const CenterDetails = ({ onClose, isLoading, details, onClick }) => {
 
     return [
       {
-        label: <Trans>Name</Trans>,
-        value: details.name,
+        label: <Trans>Building</Trans>,
+        value: details.building,
+        showItem: Boolean(details.building),
       },
       {
         label: <Trans>Email</Trans>,
-        value: <a href={`mailto:${details.email}`}>{details.email}</a>,
+        value:
+          typeof details.email === 'string' ? (
+            <a href={`mailto:${details.email}`}>{details.email}</a>
+          ) : (
+            details.email.map((email) => <a href={`mailto:${email}`}>{email}</a>)
+          ),
+        showItem: Boolean(details.email),
       },
-    ].filter(({ value }) => value);
+    ].filter(({ showItem }) => showItem);
   }, [details]);
 
   const hasDetailItems = detailsItems.length > 0;
@@ -27,7 +34,8 @@ export const CenterDetails = ({ onClose, isLoading, details, onClick }) => {
     <Card className="center-details" loading={isLoading}>
       <Row type="flex" gutter={10} className="center-details-header">
         <CenterDetailsTitle
-          address={details?.address ?? ''}
+          address={details?.address}
+          building={details?.building}
           locality={details?.locality}
           countyCode={details?.countyCode ?? details?.county}
           lat={details?.lat}
@@ -52,34 +60,20 @@ export const CenterDetails = ({ onClose, isLoading, details, onClick }) => {
         </Row>
       )}
 
-      {details?.phoneNumber ? (
-        <Button
-          className="call-center-btn"
-          icon="phone"
-          size="large"
-          type="primary"
-          ghost
-          block
-          disabled={!hasDetailItems || !details?.phoneNumber}
-          href={`tel:${details?.phoneNumber}`}
-        >
-          <span>{details?.phoneNumber ?? <Trans>Phone number missing</Trans>}</span>
-        </Button>
-      ) : (
-        <Button
-          className="call-center-btn"
-          size="large"
-          type="primary"
-          ghost
-          block
-          disabled={!hasDetailItems || !details?.phoneNumber}
-          onClick={onClick}
-        >
-          <span>
-            <Trans>Call center</Trans>
-          </span>
-        </Button>
-      )}
+      <Button
+        className="call-center-btn"
+        icon="phone"
+        size="large"
+        type="primary"
+        ghost
+        block
+        disabled={!hasDetailItems || !details?.phoneNumber}
+        href={`tel:${details?.phoneNumber}`}
+      >
+        <span>
+          {!details?.phoneNumber ? <Trans>Phone number missing</Trans> : details.phoneNumber}
+        </span>
+      </Button>
     </Card>
   );
 };

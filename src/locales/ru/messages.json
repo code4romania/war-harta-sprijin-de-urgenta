@@ -59,12 +59,12 @@
     ],
     "extractedComments": []
   },
-  "Call center": {
-    "translation": "Позвонить в центр",
+  "Building": {
+    "translation": "Строительство",
     "origin": [
       [
         "components/CenterDetails/index.js",
-        79
+        14
       ]
     ],
     "extractedComments": []
@@ -74,7 +74,7 @@
     "origin": [
       [
         "components/CenterDetails/index.js",
-        18
+        19
       ]
     ],
     "extractedComments": []
@@ -104,7 +104,7 @@
     "origin": [
       [
         "components/CenterDetails/index.js",
-        51
+        59
       ]
     ],
     "extractedComments": []
@@ -139,22 +139,12 @@
     ],
     "extractedComments": []
   },
-  "Name": {
-    "translation": "имя",
-    "origin": [
-      [
-        "components/CenterDetails/index.js",
-        14
-      ]
-    ],
-    "extractedComments": []
-  },
   "Phone number missing": {
     "translation": "Номер телефона отсутствует",
     "origin": [
       [
         "components/CenterDetails/index.js",
-        66
+        74
       ]
     ],
     "extractedComments": []
