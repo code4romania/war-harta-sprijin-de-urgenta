@@ -50,6 +50,7 @@
     "extractedComments": []
   },
   "Back to home page": {
+    "translation": "Back to home page",
     "origin": [
       [
         "containers/404/HeroFragment.js",
@@ -58,12 +59,12 @@
     ],
     "extractedComments": []
   },
-  "Call center": {
-    "translation": "Call center",
+  "Building": {
+    "translation": "Building",
     "origin": [
       [
         "components/CenterDetails/index.js",
-        79
+        14
       ]
     ],
     "extractedComments": []
@@ -73,7 +74,7 @@
     "origin": [
       [
         "components/CenterDetails/index.js",
-        18
+        19
       ]
     ],
     "extractedComments": []
@@ -99,10 +100,11 @@
     "extractedComments": []
   },
   "Information missing": {
+    "translation": "Information missing",
     "origin": [
       [
         "components/CenterDetails/index.js",
-        51
+        59
       ]
     ],
     "extractedComments": []
@@ -137,22 +139,12 @@
     ],
     "extractedComments": []
   },
-  "Name": {
-    "translation": "Name",
-    "origin": [
-      [
-        "components/CenterDetails/index.js",
-        14
-      ]
-    ],
-    "extractedComments": []
-  },
   "Phone number missing": {
     "translation": "Phone number missing",
     "origin": [
       [
         "components/CenterDetails/index.js",
-        66
+        74
       ]
     ],
     "extractedComments": []

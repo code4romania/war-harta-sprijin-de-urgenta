@@ -6,7 +6,7 @@ import { CenterDetailsTitleType } from '../../types/centers';
 
 const { Paragraph, Text } = Typography;
 
-export const CenterDetailsTitle = ({ address, locality, countyCode, lat, lng }) => {
+export const CenterDetailsTitle = ({ address, building, locality, countyCode, lat, lng }) => {
   const showSubtext = locality || countyCode;
 
   return (
@@ -16,7 +16,7 @@ export const CenterDetailsTitle = ({ address, locality, countyCode, lat, lng }) 
           <Icon type="environment" />
         </Col>
         <Col span={22}>
-          <Paragraph className="center-details-title__text">{address} </Paragraph>
+          <Paragraph className="center-details-title__text">{address || building}</Paragraph>
 
           <Paragraph>
             {showSubtext && (
