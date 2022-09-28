@@ -5,7 +5,7 @@ import { DownOutlined, GlobalOutlined } from '@ant-design/icons';
 import { Trans } from '@lingui/macro';
 import logo from '../../logo.svg';
 import { useGlobalContext } from '../../context';
-import CfR from '../../images/footer_CfR.svg';
+import CfR from '../../images/commitglobal.svg';
 
 const { Header: AntHeader } = Layout;
 const { Text } = Typography;
@@ -37,11 +37,11 @@ export const Header = () => {
   return (
     <div className="navbar">
       <div className="container cfr-banner">
-        <img className="cfr-header-logo" src={CfR} alt="Code4Romania" />
+        <img className="cfr-header-logo" src={CfR} alt="Commit Global" />
         <Text strong>
           <Trans>
-            A Code for Romania solution.{' '}
-            <Link to={{ pathname: 'https://code4.ro/ro' }} target="_blank">
+            A Commit Global solution.{' '}
+            <Link to={{ pathname: 'https://www.commitglobal.org/' }} target="_blank">
               Find out more.
             </Link>
           </Trans>
