@@ -19,8 +19,8 @@
     ],
     "extractedComments": []
   },
-  "A Code for Romania solution. <0>Find out more.</0>": {
-    "translation": "Код для Румунії рішення. <0>Дізнайся більше.</0>",
+  "A Commit Global solution. <0>Find out more.</0>": {
+    "translation": "Продукт Commit Global. <0>Дізнайся більше.</0>",
     "origin": [
       [
         "components/Header/index.js",
